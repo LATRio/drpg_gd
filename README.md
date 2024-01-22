@@ -1,4 +1,4 @@
-First Person Dungoen Crawler w/ Map Editor
+First Person Dungeon Crawler w/ Map Editor
 Using Godot Engine
 =======================
 Assets:
