@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://r5bttrai0auv"]
+
+[ext_resource type="Texture2D" uid="uid://cgo8mmbbqrlj" path="res://dungeon_model/Dungeon Tiles_Barrel 2.png" id="1_nhdmw"]
+
+[resource]
+resource_name = "Barrel 2"
+cull_mode = 2
+albedo_texture = ExtResource("1_nhdmw")
+roughness = 0.5

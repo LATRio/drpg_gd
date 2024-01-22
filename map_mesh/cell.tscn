@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bm8pqbix1o3fx"]
+
+[ext_resource type="Script" path="res://map_mesh/cell.gd" id="1_wu60m"]
+[ext_resource type="ArrayMesh" uid="uid://cpwnbd25slfvs" path="res://dungeon_model/meshes/floor_2.res" id="2_uoi6r"]
+[ext_resource type="ArrayMesh" uid="uid://dowfakmoawhlg" path="res://dungeon_model/meshes/floor_3.res" id="3_vmmnv"]
+
+[node name="Cell" type="Node3D"]
+script = ExtResource("1_wu60m")
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+mesh = ExtResource("2_uoi6r")
+skeleton = NodePath("../..")
+
+[node name="Celing" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 8.74228e-08, 0, -8.74228e-08, -1, 0, 0, 0, 1, 1, 1.8, 1)
+mesh = ExtResource("3_vmmnv")
+skeleton = NodePath("../..")

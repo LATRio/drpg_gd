@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ceaa1p21vjr4g"]
+
+[ext_resource type="Texture2D" uid="uid://cag42xvem2765" path="res://dungeon_model/Dungeon Tiles_Table 2.png" id="1_4qgyx"]
+
+[resource]
+resource_name = "Table 2"
+cull_mode = 2
+albedo_texture = ExtResource("1_4qgyx")
+roughness = 0.5

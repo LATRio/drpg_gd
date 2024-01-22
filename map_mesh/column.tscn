@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0bvx2yilg5um"]
+
+[ext_resource type="ArrayMesh" uid="uid://c1oket83j76hg" path="res://dungeon_model/meshes/column_0.res" id="1_ny5qy"]
+
+[node name="Column" type="MeshInstance3D"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+mesh = ExtResource("1_ny5qy")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c07os6pjp31yq"]
+
+[ext_resource type="ArrayMesh" uid="uid://2x35b4exjkbu" path="res://dungeon_model/meshes/wall_0.res" id="1_dktnt"]
+
+[node name="WallNorth" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+mesh = ExtResource("1_dktnt")

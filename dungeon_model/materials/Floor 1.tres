@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dhyte4ku44dx7"]
+
+[ext_resource type="Texture2D" uid="uid://dvjf38jlslcyf" path="res://dungeon_model/Dungeon Tiles_Floor 1.png" id="1_gnunc"]
+
+[resource]
+resource_name = "Floor 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_gnunc")
+ao_enabled = true

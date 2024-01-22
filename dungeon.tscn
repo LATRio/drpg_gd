@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://c2ds5uyvdip5f"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_igo8j"]
+[ext_resource type="Script" path="res://dungeon.gd" id="1_jeqym"]
+[ext_resource type="Resource" uid="uid://b1lp5umk8qjea" path="res://maps/map_1.tres" id="2_h7vms"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ivxex"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_jwlfs"]
+sky_material = SubResource("ProceduralSkyMaterial_ivxex")
+
+[sub_resource type="Environment" id="Environment_bdbn4"]
+background_mode = 1
+sky = SubResource("Sky_jwlfs")
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+
+[node name="Dungeon" type="Node3D"]
+script = ExtResource("1_jeqym")
+map_data = ExtResource("2_h7vms")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_bdbn4")
+
+[node name="Player" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+script = ExtResource("1_igo8j")
+
+[node name="YawHandler" type="Node3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Player/YawHandler"]
+transform = Transform3D(1, 0, 0, 0, 0.996462, 0.0840431, 0, -0.0840431, 0.996462, 0, 0, 0.476049)
+current = true
+fov = 45.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

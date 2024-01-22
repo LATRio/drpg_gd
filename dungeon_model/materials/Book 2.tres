@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dttjcs7wqvoha"]
+
+[ext_resource type="Texture2D" uid="uid://dxweopu2m0xwv" path="res://dungeon_model/Dungeon Tiles_Book 2.png" id="1_8rhlw"]
+
+[resource]
+resource_name = "Book 2"
+cull_mode = 2
+albedo_texture = ExtResource("1_8rhlw")
+roughness = 0.5

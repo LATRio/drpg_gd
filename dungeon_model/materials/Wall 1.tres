@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://70tjojjy0ul"]
+
+[ext_resource type="Texture2D" uid="uid://ctkd8suojovaw" path="res://dungeon_model/Dungeon Tiles_Wall 1.png" id="1_anbo5"]
+
+[resource]
+resource_name = "Wall 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_anbo5")
+roughness = 0.5

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d0hlbqhd463wd"]
+
+[ext_resource type="Texture2D" uid="uid://cl01wj0e5k5c" path="res://dungeon_model/Dungeon Tiles_Column 1.png" id="1_s5ovv"]
+
+[resource]
+resource_name = "Column 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_s5ovv")
+roughness = 0.5

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://de2kp16d3q1x8"]
+
+[ext_resource type="Texture2D" uid="uid://c7l1nqt6ix4ww" path="res://dungeon_model/Dungeon Tiles_Bottle 1.png" id="1_ddx5j"]
+
+[resource]
+resource_name = "Bottle 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_ddx5j")
+roughness = 0.5

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c3ivehiyrsth4"]
+
+[ext_resource type="Texture2D" uid="uid://ranx7c1540de" path="res://dungeon_model/Dungeon Tiles_Shelf 2.png" id="1_mfild"]
+
+[resource]
+resource_name = "Shelf 2"
+cull_mode = 2
+albedo_texture = ExtResource("1_mfild")
+roughness = 0.5

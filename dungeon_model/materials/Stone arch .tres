@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b5by1yq0yr40p"]
+
+[ext_resource type="Texture2D" uid="uid://c533vmlh4y7oj" path="res://dungeon_model/Dungeon Tiles_Stone arch.png" id="1_vvflo"]
+
+[resource]
+resource_name = "Stone arch "
+cull_mode = 2
+albedo_texture = ExtResource("1_vvflo")
+roughness = 0.5

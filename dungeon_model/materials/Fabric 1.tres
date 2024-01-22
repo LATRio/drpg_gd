@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cjy4g0vk8317n"]
+
+[ext_resource type="Texture2D" uid="uid://cu0y821xol11k" path="res://dungeon_model/Dungeon Tiles_Fabric 1.png" id="1_pt3x1"]
+
+[resource]
+resource_name = "Fabric 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_pt3x1")
+roughness = 0.5

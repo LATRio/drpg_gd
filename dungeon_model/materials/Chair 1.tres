@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cvbk512dfrjfr"]
+
+[ext_resource type="Texture2D" uid="uid://csah25p41ljbj" path="res://dungeon_model/Dungeon Tiles_Chair 1.png" id="1_u6y4d"]
+
+[resource]
+resource_name = "Chair 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_u6y4d")
+roughness = 0.5

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cch0hue5xy6tw"]
+
+[ext_resource type="Texture2D" uid="uid://dqm81gawmlp87" path="res://dungeon_model/Dungeon Tiles_Weapon stack 1.png" id="1_1ld5w"]
+
+[resource]
+resource_name = "Weapon stack 1"
+cull_mode = 2
+albedo_texture = ExtResource("1_1ld5w")
+roughness = 0.5

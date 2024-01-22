@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cni4vuehbtjsw"]
+
+[ext_resource type="Texture2D" uid="uid://cuf4bmneb7iyo" path="res://dungeon_model/Dungeon Tiles_Door.png" id="1_6ig1q"]
+
+[resource]
+resource_name = "Door"
+cull_mode = 2
+albedo_texture = ExtResource("1_6ig1q")
+roughness = 0.5
