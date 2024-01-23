@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://c2ds5uyvdip5f"]
 
-[ext_resource type="Script" path="res://Player.gd" id="1_igo8j"]
+[ext_resource type="Script" path="res://player.gd" id="1_igo8j"]
 [ext_resource type="Script" path="res://dungeon.gd" id="1_jeqym"]
-[ext_resource type="Resource" uid="uid://b1lp5umk8qjea" path="res://maps/map_1.tres" id="2_h7vms"]
+[ext_resource type="Resource" uid="uid://dwhtl8algn10v" path="res://maps/map_0.tres" id="2_6nv88"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ivxex"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -22,7 +22,7 @@ sdfgi_enabled = true
 
 [node name="Dungeon" type="Node3D"]
 script = ExtResource("1_jeqym")
-map_data = ExtResource("2_h7vms")
+map_data = ExtResource("2_6nv88")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_bdbn4")

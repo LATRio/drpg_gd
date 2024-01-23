@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cax3wphuotfc1"]
 
-[ext_resource type="Script" path="res://addons/drpgmapeditor/MapViewer.gd" id="1_i7h3m"]
 [ext_resource type="Script" path="res://addons/drpgmapeditor/rpg_map_editor.gd" id="1_lk6rd"]
+[ext_resource type="Script" path="res://addons/drpgmapeditor/map_viewer.gd" id="2_3i8hq"]
 
 [node name="RPGMapEditor" type="Control"]
 layout_mode = 3
@@ -157,7 +157,7 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-script = ExtResource("1_i7h3m")
+script = ExtResource("2_3i8hq")
 
 [node name="MapDataOpen" type="FileDialog" parent="."]
 unique_name_in_owner = true
